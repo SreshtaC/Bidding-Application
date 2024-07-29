@@ -83,7 +83,7 @@ The high-level architecture and design of a full-stack web application for an on
 1. User sends registration details to the server.
 2. Server hashes the password and stores the user details in the database.
 3. User sends login credentials to the server.
-4. Server verifies credentials and returns a JWT.
+4. Server verifies credentials and returns a JWT. (This is a work in progress). 
 
 #### Auction Item Management
 1. User creates/updates/deletes an auction item.
