@@ -41,7 +41,7 @@ This online bidding-application is a web-based platform for creating and partici
 
 1. **Navigate to the frontend directory:**
    ```sh
-   cd ../frontend
+   cd ../auction-app
 2. **Install required packages:**
    ```sh
    npm install
