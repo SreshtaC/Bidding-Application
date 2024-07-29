@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;;
+    align-items: center;
+    padding-left:14%;
+    background-color: rgb(15,21,44); /* Dark blue background */
+    color: white;
+    height: 20vh;
+}
+.logo1 {
+    display: flex;
+    align-items: center;
+    font-size: 24px; /* Adjust size as needed */
+    font-weight: bold;
+    color:white;
+  }
+.nav-links {
+    list-style-type: none; /* Removes bullet points from list */
+    display: flex;
+    gap: 20px; /* Space between navigation links */
+}
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+.social-icons {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.cpy{
+    display: block;
+    background-color: rgb(15,21,44);
+    color:hsl(0, 0%, 83%);
+    padding:2%;
+    width:100%;
+    text-align: center;
+}
