@@ -10,6 +10,7 @@ The high-level architecture and design of a full-stack web application for an on
 - Users can create, view, update, and delete auction items.
 - Users can participate in auctions by placing and tracking bids.
 
+---
 ### 3. **Functionalities and Features**
 
 #### 1. User Registration and Authentication
@@ -31,6 +32,7 @@ The high-level architecture and design of a full-stack web application for an on
 - An auction item page that shows detailed information and bid history so that the user can decide whether to place a bid.
 - A page where the user can view their auction activities to keep track of their participation.
 
+---
 ### 4. **User Experience**
 
 #### Home Page
@@ -52,7 +54,7 @@ The high-level architecture and design of a full-stack web application for an on
 - Provides the user with update and delete functionalities.
 - Update navigates the user to a form that displays previous details of the auction item and allows for updation.
 
-
+---
 ### 5. **Technical Architecture**
 
 #### Front-End
@@ -74,6 +76,7 @@ The high-level architecture and design of a full-stack web application for an on
 - **Password Hashing**: bcrypt
 - **Authentication**: JWT (JSON Web Tokens)
 
+---
 ### 6. **System Flow**
 
 #### User Registration and Login
@@ -92,6 +95,7 @@ The high-level architecture and design of a full-stack web application for an on
 2. Server verifies the bid and updates the auction item's current bid.
 3. Server returns the updated bid history to the user.
 
+---
 ### 7. **Conclusion**
 
 This high-level design document outlines the architecture and functionality of a full-stack web application for an online bidding system. The application is designed to be user-friendly, secure, and scalable, providing a seamless experience for users to participate in online auctions.
