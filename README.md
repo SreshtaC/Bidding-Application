@@ -1,7 +1,5 @@
 # Bidding-Application
 
-## Overview
-
 Bidding-Application is a web-based platform for creating and participating in auctions. Users can create auctions, place bids on items, and view auction details. The application consists of a React.js front end and a Node.js back end using Express.
 
 ### Features
