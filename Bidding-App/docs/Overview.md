@@ -73,24 +73,7 @@ The high-level architecture and design of a full-stack web application for an on
 - **Password Hashing**: bcrypt
 - **Authentication**: JWT (JSON Web Tokens)
 
-### 6. **API Endpoints**
-
-#### User Authentication
-- **POST /api/users/signup**: Register a new user
-- **POST /api/users/login**: Authenticate a user with email & password.
-
-#### Auction Item Management
-- **POST /api/auctions/createAuc**: Create a new auction item
-- **GET /api/auctions/getAuc**: Get all auction items
-- **GET /api/auctions/:itemId**: Get a specific auction item
-- **PUT /api/auctions/:itemId**: Update an auction item
-- **DELETE /api/auctions/:itemId**: Delete an auction item
-
-#### Bidding Functionality
-- **POST /api/bids/placeBid/:itemId**: Place a new bid
-- **GET /api/bids/history/:itemId**: Get all bids for a specific auction item
-
-### 7. **Sequence Diagrams**
+### 6. **System Flow**
 
 #### User Registration and Login
 1. User sends registration details to the server.
@@ -108,6 +91,6 @@ The high-level architecture and design of a full-stack web application for an on
 2. Server verifies the bid and updates the auction item's current bid.
 3. Server returns the updated bid history to the user.
 
-### 8. **Conclusion**
+### 7. **Conclusion**
 
 This high-level design document outlines the architecture and functionality of a full-stack web application for an online bidding system. The application is designed to be user-friendly, secure, and scalable, providing a seamless experience for users to participate in online auctions.
