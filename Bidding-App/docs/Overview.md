@@ -1,6 +1,7 @@
 ### 1. **Introduction**  
 
 The high-level architecture and design of a full-stack web application for an online bidding system is outlined here. The application includes user authentication, putting an auction up for sale, auction item functionality, bidding functionality, and a user-friendly interface for placing and viewing bids.
+
 ---
 ### 2. **Goals**
 
