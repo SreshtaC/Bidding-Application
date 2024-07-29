@@ -39,22 +39,3 @@
 3. **Bid Placement**: Bids can only be placed on active auctions and must be higher than the current highest bid. Each bid updates the `currentBid` of the auction item.
 4. **User-Specific Data**: Users can view their own auctions and bids by querying the database using their unique user ID. This helps in personalizing the user experience.
 5. **Data Relationships**: Schemas are connected using MongoDB references (ObjectId) to establish relationships between users, auctions, and bids. This ensures data integrity and efficient querying.
-
-### Controllers
-
-#### Bid Controller
-- **placeBid**: Handles bid placement, validates auction status and bid amount, updates the current bid of the auction item.
-- **getBidHistory**: Retrieves bid history for a specific auction item, sorted by bid time.
-- **getMyBids**: Retrieves all bids placed by a specific user.
-
-#### User Controller
-- **login**: Authenticates users using email and password, returns user data if successful.
-- **signup**: Registers new users, hashes passwords before saving them to the database.
-
-#### Auction Controller
-- **createAuctionItem**: Creates a new auction item.
-- **getAllAuctionItems**: Retrieves all active auction items.
-- **getAuctionItem**: Retrieves a specific auction item by its ID.
-- **getAllMyAuctionItems**: Retrieves all auction items created by a specific user.
-- **updateAuctionItem**: Updates an existing auction item.
-- **deleteAuctionItem**: Deletes an auction item by its ID.
