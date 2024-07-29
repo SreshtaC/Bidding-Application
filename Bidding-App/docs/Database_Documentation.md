@@ -2,7 +2,7 @@
 
 **Database Used**: NoSQL (MongoDB)
 ### Database Schemas/ Data Models 
-<img src="Data_Models.png" alt="data models"/>
+<img src="z.png" alt="data models"/>
 
 ### User Schema
 
