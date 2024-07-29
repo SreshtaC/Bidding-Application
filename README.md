@@ -24,7 +24,7 @@ Bidding-Application is a web-based platform for creating and participating in au
 
 1. **Clone the repository:**
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/SreshtaC/Bidding-Application.git
    cd Bidding-Application
 2. **Navigate to the backend directory:**
    ```sh
